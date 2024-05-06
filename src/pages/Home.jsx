@@ -3,11 +3,11 @@ import Main from "../components/Main";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className="main">
         <Main />
       </div>
-    </div>
+    </>
   );
 };
 

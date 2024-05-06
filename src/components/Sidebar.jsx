@@ -5,19 +5,19 @@ const Sidebar = () => {
   return (
     <section className="sidebar">
       <div className="menu">
-        <Link to="/">
+        <Link to="/" name="menu">
           <HiOutlineMenuAlt2 size={"1.5rem"} />
         </Link>
-        <Link to="/">
+        <Link to="/" name="home">
           <HiOutlineHome size={"1.5rem"} />
         </Link>
-        <Link to="/cart">
+        <Link to="/cart" name="cart">
           <CiShoppingCart size={"1.5rem"} />
         </Link>
-        <Link to="/fav">
+        <Link to="/fav" name="favourites">
           <CiHeart size={"1.5rem"} />
         </Link>
-        <Link to="/orders">
+        <Link to="/orders" name="orders">
           <CiDeliveryTruck size={"1.5rem"} />
         </Link>
       </div>
