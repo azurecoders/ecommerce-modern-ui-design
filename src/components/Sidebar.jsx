@@ -3,8 +3,8 @@ import { CiShoppingCart, CiHeart, CiDeliveryTruck } from "react-icons/ci";
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
-    <div className="sidebar">
-      <ul>
+    <section className="sidebar">
+      <div className="menu">
         <Link to="/">
           <HiOutlineMenuAlt2 size={"1.5rem"} />
         </Link>
@@ -20,8 +20,8 @@ const Sidebar = () => {
         <Link to="/orders">
           <CiDeliveryTruck size={"1.5rem"} />
         </Link>
-      </ul>
-    </div>
+      </div>
+    </section>
   );
 };
 

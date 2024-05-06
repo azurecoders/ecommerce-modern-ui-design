@@ -8,7 +8,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Sidebar />
-      <Suspense fallback={<h1 className="main">Loading...</h1>}>
+      <Suspense fallback={<h4 className="main loading">Loading...</h4>}>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

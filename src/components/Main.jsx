@@ -88,8 +88,8 @@ const Main = () => {
   };
 
   return (
-    <div className="main-container">
-      <div className="header">
+    <section className="main-container">
+      <section className="header">
         <div className="logo-container">
           <h1>Muzammil Shop</h1>
         </div>
@@ -101,8 +101,8 @@ const Main = () => {
           />
           <CiSearch className="search-icon" />
         </div>
-      </div>
-      <div className="categories">
+      </section>
+      <section className="categories">
         <div className="category active">
           <p>Watches</p>
         </div>
@@ -139,11 +139,13 @@ const Main = () => {
         <div className="category">
           <p>Keyboards</p>
         </div>
-      </div>
-      <div className="grid">
+      </section>
+      <section className="grid">
         {filteredProducts.map((e, i) => (
           <div className="item" key={i}>
-            <img src={e.img} />
+            <div className="image-container">
+              <img src={e.img} alt={e.title.toLowerCase()} />
+            </div>
             <div className="content">
               <p className="title">{`${e.title}`}</p>
               <p>{e.description}</p>
@@ -154,8 +156,8 @@ const Main = () => {
             </div>
           </div>
         ))}
-      </div>
-    </div>
+      </section>
+    </section>
   );
 };
 
