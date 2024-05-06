@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "img": "glasses.jpeg",
+      "title": "Sun Glasses",
+      "description": "lorem ipsum dolar",
+      "price": 40
+    },
+    {
+      "img": "keyboard.jpg",
+      "title": "Black keyboard",
+      "description": "lorem ipsum dolar",
+      "price": 70
+    },
+    {
+      "img": "watch.jpg",
+      "title": "Apple Watch",
+      "description": "lorem ipsum dolar",
+      "price": 990
+    },
+    {
+      "img": "mouse.jpg",
+      "title": "Black Mouse",
+      "description": "lorem ipsum dolar",
+      "price": 30
+    },
+    {
+      "img": "laptop.jpg",
+      "title": "accer laptop",
+      "description": "lorem ipsum dolar",
+      "price": 999
+    },
+    {
+      "img": "leatherWatch.jpg",
+      "title": "Leather Watch",
+      "description": "lorem ipsum dolar",
+      "price": 880
+    },
+    {
+      "img": "monitor.jpg",
+      "title": "One plus monitor",
+      "description": "lorem ipsum dolar",
+      "price": 40
+    },
+    {
+      "img": "glasses.jpeg",
+      "title": "Sun Glasses",
+      "description": "lorem ipsum dolar",
+      "price": 40
+    },
+    {
+      "img": "mouse.jpg",
+      "title": "Mouse",
+      "description": "lorem ipsum dolar",
+      "price": 40
+    },
+    {
+      "img": "leatherWatch.jpg",
+      "title": "leather",
+      "description": "lorem ipsum dolar",
+      "price": 40
+    }
+  ]
+}
